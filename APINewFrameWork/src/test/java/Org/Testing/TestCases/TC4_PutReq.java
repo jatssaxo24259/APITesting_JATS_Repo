@@ -2,13 +2,17 @@ package Org.Testing.TestCases;
 
 import java.io.IOException;
 import java.util.Properties;
+
+import org.testng.annotations.Test;
+
 import Org.Testing.TestSteps.HTTPMethods;
 import Org.Testing.Utilities.JsonFileHandler;
 import Org.Testing.Utilities.PropertiesHandler;
 import io.restassured.response.Response;
 
 public class TC4_PutReq 
-{
+{	
+	@Test
 	public void ExecuteTC4() throws IOException
 	{
 		Properties Prop = PropertiesHandler.GetProperties("../APINewFrameWork/URIs.properties");

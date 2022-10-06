@@ -3,6 +3,8 @@ package Org.Testing.TestCases;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.testng.annotations.Test;
+
 import Org.Testing.TestSteps.HTTPMethods;
 import Org.Testing.Utilities.ParseJsonHandler;
 import Org.Testing.Utilities.PropertiesHandler;
@@ -10,7 +12,7 @@ import io.restassured.response.Response;
 
 public class TC2_GetReq 
 {
-
+	@Test
 	public void ExecuteTC2() throws IOException 
 	{
 		Properties Prop = PropertiesHandler.GetProperties("../APINewFrameWork/URIs.properties");

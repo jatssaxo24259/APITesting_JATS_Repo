@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.Scanner;
 
+import org.testng.annotations.Test;
+
 import Org.Testing.TestSteps.HTTPMethods;
 import Org.Testing.Utilities.JSONFieldUpdateHelper;
 import Org.Testing.Utilities.JsonFileHandler;
@@ -14,6 +16,7 @@ import io.restassured.response.Response;
 public class TC1_PostReq 
 {
 	public static String returnIdValue;
+	@Test
 	public void ExecuteTC1() throws IOException
 	{
 		Properties Prop = PropertiesHandler.GetProperties("../APINewFrameWork/URIs.properties");

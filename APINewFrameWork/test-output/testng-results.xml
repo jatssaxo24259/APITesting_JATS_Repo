@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5806" started-at="2022-10-06T18:35:53Z" finished-at="2022-10-06T18:35:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5806" started-at="2022-10-06T18:35:53Z" finished-at="2022-10-06T18:35:59Z">
+      <class name="Org.Testing.TestCases.TC1_PostReq">
+        <test-method status="PASS" signature="ExecuteTC1()[pri:0, instance:Org.Testing.TestCases.TC1_PostReq@1198b989]" name="ExecuteTC1" duration-ms="5626" started-at="2022-10-07T00:05:53Z" finished-at="2022-10-07T00:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTC1 -->
+      </class> <!-- Org.Testing.TestCases.TC1_PostReq -->
+      <class name="Org.Testing.TestCases.TC2_GetReq">
+        <test-method status="PASS" signature="ExecuteTC2()[pri:0, instance:Org.Testing.TestCases.TC2_GetReq@2aa3cd93]" name="ExecuteTC2" duration-ms="48" started-at="2022-10-07T00:05:58Z" finished-at="2022-10-07T00:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTC2 -->
+      </class> <!-- Org.Testing.TestCases.TC2_GetReq -->
+      <class name="Org.Testing.TestCases.TC4_PutReq">
+        <test-method status="PASS" signature="ExecuteTC4()[pri:0, instance:Org.Testing.TestCases.TC4_PutReq@4b44655e]" name="ExecuteTC4" duration-ms="35" started-at="2022-10-07T00:05:59Z" finished-at="2022-10-07T00:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTC4 -->
+      </class> <!-- Org.Testing.TestCases.TC4_PutReq -->
+      <class name="Org.Testing.TestCases.TC3_GetSpecificReq">
+        <test-method status="PASS" signature="ExecuteTC3()[pri:0, instance:Org.Testing.TestCases.TC3_GetSpecificReq@7ea37dbf]" name="ExecuteTC3" duration-ms="46" started-at="2022-10-07T00:05:59Z" finished-at="2022-10-07T00:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTC3 -->
+      </class> <!-- Org.Testing.TestCases.TC3_GetSpecificReq -->
+      <class name="Org.Testing.TestCases.TC5_DelSpecificReq">
+        <test-method status="PASS" signature="Execute_TC5()[pri:0, instance:Org.Testing.TestCases.TC5_DelSpecificReq@290d210d]" name="Execute_TC5" duration-ms="41" started-at="2022-10-07T00:05:59Z" finished-at="2022-10-07T00:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Execute_TC5 -->
+      </class> <!-- Org.Testing.TestCases.TC5_DelSpecificReq -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
