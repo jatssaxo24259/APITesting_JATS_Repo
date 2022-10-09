@@ -2,6 +2,7 @@ package Org.Testing.TestCases;
 
 import java.io.IOException;
 import java.util.Properties;
+import java.util.Random;
 import java.util.Scanner;
 
 import org.testng.annotations.Test;
@@ -22,9 +23,9 @@ public class TC1_PostReq
 		Properties Prop = PropertiesHandler.GetProperties("../APINewFrameWork/URIs.properties");
 		
 		String BodyData = JsonFileHandler.GetBodyData("../APINewFrameWork/src/test/java/Org/Testing/Resources/VariableJsonInput.json");
-		System.out.println("Please enter Id number");
-		Scanner s = new Scanner(System.in);
-		String input = s.next();			
+		Random r = new Random();
+		int ran = r.nextInt();
+		String input = Integer.toString(ran);		
 		BodyData = JSONFieldUpdateHelper.FieldUpdate(BodyData, "id",input);
 		
 		HTTPMethods Obj = new HTTPMethods(Prop);
@@ -37,6 +38,5 @@ public class TC1_PostReq
 		System.out.println(res.getStatusCode());
 		System.out.println("Return Id from response is "+ returnIdValue);
 		System.out.println("**********************TC1******************");
-		s.close();
 	}
 }
